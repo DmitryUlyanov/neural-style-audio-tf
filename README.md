@@ -2,6 +2,7 @@
 
 This is a TensorFlow reimplementation of [Vadim's Lasagne code](https://github.com/vadim-v-lebedev/audio_style_tranfer) for style transfer algorithm for audio, which uses convolutions with random weights to represent audio features.
 
+So far it is CPU only, but if you are proficient in TensorFlow it should be easy to switch. Actually it runs fast on CPU. 
 ### Dependencies
 - python (tested with 2.7)
 - TensorFlow ([installation instructions](https://www.tensorflow.org/get_started/os_setup))

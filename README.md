@@ -16,6 +16,10 @@ pip install librosa
 
 The easiest way to install python is to use [Anaconda](https://www.continuum.io/downloads).
 
+### Running with docker
+
+Install docker and docker-compose, then run `docker-compose up` and click on the http://localhost:8888 link.
+
 ### How to run
 - Open `neural-style-audio-tf.ipynb` in Jupyter.
 - In case you want to use your own audio files as inputs, first cut them to 10s length with:
